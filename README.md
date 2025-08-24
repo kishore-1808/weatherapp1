@@ -1,30 +1,32 @@
-# Tap Battle Game 🎮🔥
+# Weather App 🌤️
 
-A fun two-player Flutter game where players battle by tapping! The screen is split into two halves — **Player A (Blue)** and **Player B (Red)**. Each tap expands the player’s region while shrinking the opponent’s, and the score updates in real-time. The player with more taps dominates the screen!  
-
----
-
-## ✨ Features
-- 🟦 **Player A (Blue)** and 🔴 **Player B (Red)** sides  
-- 📈 Dynamic screen expansion on tap  
-- 🎯 Real-time score updates  
-- ⚡ Simple and fast gameplay — perfect for quick battles  
-- 📱 Works on both Android & iOS (via Flutter)  
+A **Flutter-based Weather App** that allows users to view current weather conditions for any city or their current location. It supports favorites, temperature unit toggle (°C/°F), and sharing weather information with friends.
 
 ---
 
-## 🚀 Installation
-To run this project locally, follow these steps:
+## Features
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/tap-battle-game.git
+- **Current Weather:** Fetches real-time weather for any city.
+- **GPS Location:** Automatically detects your current location and displays weather.
+- **Favorites:** Save frequently checked cities for quick access.
+- **Temperature Toggle:** Switch between Celsius and Fahrenheit.
+- **Share Weather:** Share current weather information via other apps (WhatsApp, Messenger, etc.).
+- **Friendly Messages:** Displays weather-appropriate messages (e.g., ☔ Don’t forget your umbrella!).
+- **Dynamic Background:** Changes background color depending on weather and time of day.
 
-# Navigate into the project directory
-cd tap-battle-game
+---
 
-# Install dependencies
-flutter pub get
+## Getting Started
 
-# Run the app on your device or emulator
-flutter run
+### Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart](https://dart.dev/get-dart)
+- Android Studio or VS Code
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/weather_app.git
+   cd weather_app
